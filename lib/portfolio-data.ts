@@ -22,6 +22,40 @@ export type Achievement = {
   title: string;
 };
 
+export type ProfessionalLink = {
+  title: string;
+  description: string;
+  url: string;
+  category: string;
+};
+
+export const professionalLinks: ProfessionalLink[] = [
+  {
+    title: "Portfolio",
+    description: "My full portfolio with detailed projects and experience",
+    url: "https://tejasnasre.is-a.dev",
+    category: "Portfolio",
+  },
+  {
+    title: "GitHub",
+    description: "Check out my open source projects and code contributions",
+    url: "https://github.com/tejasnasre",
+    category: "Code",
+  },
+  {
+    title: "LinkedIn",
+    description: "Connect with me professionally",
+    url: "https://linkedin.com/in/tejasnasre",
+    category: "Social",
+  },
+  {
+    title: "Email",
+    description: "Get in touch for opportunities and collaborations",
+    url: "mailto:tejasnasre.dev@gmail.com",
+    category: "Contact",
+  },
+];
+
 export const skills: Skill[] = [
   {
     title: "Languages",

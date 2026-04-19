@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      data-scroll-behavior="smooth"
       className={cn(
         "h-full",
         "antialiased",
@@ -41,9 +43,20 @@ export default function RootLayout({
         "font-mono",
         jetbrainsMono.variable,
       )}
+      suppressHydrationWarning
     >
-      <body className="min-h-full bg-background font-sans text-foreground selection:bg-foreground selection:text-background">
-        {children}
+      <body
+        className="min-h-full bg-background font-sans text-foreground selection:bg-foreground selection:text-background"
+        cz-shortcut-listen="true"
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

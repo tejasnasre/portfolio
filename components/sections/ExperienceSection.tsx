@@ -8,14 +8,14 @@ export function ExperienceSection() {
       <div className="space-y-0 divide-y divide-border">
         {experiences.map((exp) => (
           <div key={exp.company} className="py-4">
-            <div className="mb-1 flex flex-wrap items-start justify-between gap-2">
+            <div className="mb-1 flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
               <div>
                 <p className="text-sm font-medium text-foreground">
                   {exp.title}
                 </p>
                 <p className="text-sm text-muted-foreground">{exp.company}</p>
               </div>
-              <div className="text-right">
+              <div className="text-left sm:text-right">
                 <p className="text-xs text-muted-foreground">{exp.duration}</p>
                 <p className="text-xs text-muted-foreground">{exp.location}</p>
               </div>
@@ -24,7 +24,7 @@ export function ExperienceSection() {
               {exp.highlights.map((h, i) => (
                 <li
                   key={i}
-                  className="text-sm text-muted-foreground leading-relaxed"
+                  className="text-sm leading-relaxed text-muted-foreground wrap-break-word"
                 >
                   – {h}
                 </li>

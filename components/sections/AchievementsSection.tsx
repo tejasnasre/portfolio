@@ -7,7 +7,10 @@ export function AchievementsSection() {
       <SectionHeading title="Activities & Achievements" />
       <div className="space-y-0 divide-y divide-border">
         {achievements.map((a) => (
-          <p key={a.title} className="py-2.5 text-sm text-muted-foreground">
+          <p
+            key={a.title}
+            className="py-2.5 text-sm text-muted-foreground wrap-break-word"
+          >
             {a.title}
           </p>
         ))}

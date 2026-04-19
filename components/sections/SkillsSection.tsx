@@ -7,11 +7,14 @@ export function SkillsSection() {
       <SectionHeading title="Skills" />
       <div className="space-y-0 divide-y divide-border">
         {skills.map((skill) => (
-          <div key={skill.title} className="flex items-start gap-4 py-3">
-            <span className="min-w-[150px] text-sm font-medium text-foreground">
+          <div
+            key={skill.title}
+            className="flex flex-col gap-1.5 py-3 sm:flex-row sm:items-start sm:gap-4"
+          >
+            <span className="w-full min-w-0 text-sm font-medium text-foreground sm:w-37.5 sm:shrink-0">
               {skill.title}
             </span>
-            <span className="text-sm text-muted-foreground">
+            <span className="text-sm text-muted-foreground wrap-break-word">
               {skill.items.join(", ")}
             </span>
           </div>
