@@ -9,7 +9,7 @@ export function AchievementsSection() {
         {achievements.map((a) => (
           <p
             key={a.title}
-            className="py-2.5 text-sm text-muted-foreground wrap-break-word"
+            className="py-5 text-sm leading-relaxed text-muted-foreground break-words"
           >
             {a.title}
           </p>

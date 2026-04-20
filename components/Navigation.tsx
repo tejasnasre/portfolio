@@ -14,8 +14,8 @@ export function Navigation() {
   ];
 
   return (
-    <nav className="mb-8 flex flex-col gap-3 text-sm text-muted-foreground sm:mb-10 sm:flex-row sm:items-center sm:justify-between">
-      <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+    <nav className="mb-10 flex items-center justify-between text-sm text-muted-foreground">
+      <div className="flex items-center gap-x-5">
         {navLinks.map((link) => {
           const isActive =
             link.href === "/"
@@ -39,9 +39,7 @@ export function Navigation() {
           );
         })}
       </div>
-      <div className="self-end sm:self-auto">
-        <SwitchButton />
-      </div>
+      <SwitchButton />
     </nav>
   );
 }

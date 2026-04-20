@@ -128,7 +128,7 @@ export const projects: Project[] = [
       "Multi-role attendance platform with OTP codes, biometric verification, and GPS-based proximity validation",
     links: [
       { label: "Live", href: "#" },
-      { label: "Code", href: "https://github.com/tejasnasr" },
+      { label: "Code", href: "https://github.com/tejasnasre" },
       { label: "Demo", href: "#" },
     ],
   },
@@ -139,7 +139,7 @@ export const projects: Project[] = [
       "Restaurant management app with real-time menu features, image uploads, and UPI payment integration",
     links: [
       { label: "Live", href: "#" },
-      { label: "Code", href: "https://github.com/tejasnasr" },
+      { label: "Code", href: "https://github.com/tejasnasre" },
       { label: "Demo", href: "#" },
     ],
   },
@@ -150,7 +150,7 @@ export const projects: Project[] = [
       "AI-powered nutrition analysis app using Google Gemini to analyze food images with instant health scoring",
     links: [
       { label: "Live", href: "#" },
-      { label: "Code", href: "https://github.com/tejasnasr" },
+      { label: "Code", href: "https://github.com/tejasnasre" },
       { label: "Demo", href: "#" },
     ],
   },
@@ -161,7 +161,7 @@ export const projects: Project[] = [
       "Hydration tracking app with personalized daily goals, animated UI, and smart push notifications",
     links: [
       { label: "Live", href: "#" },
-      { label: "Code", href: "https://github.com/tejasnasr" },
+      { label: "Code", href: "https://github.com/tejasnasre" },
       { label: "Demo", href: "#" },
     ],
   },

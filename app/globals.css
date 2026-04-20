@@ -37,9 +37,9 @@
   --sidebar-accent-foreground: #171717;
   --sidebar-border: #e5e5e5;
   --sidebar-ring: #a1a1a1;
-  --font-sans: Geist Mono, monospace;
-  --font-serif: Geist Mono, monospace;
-  --font-mono: Geist Mono, monospace;
+  --font-sans: var(--font-dm-sans), 'DM Sans', sans-serif;
+  --font-serif: var(--font-dm-sans), 'DM Sans', sans-serif;
+  --font-mono: var(--font-dm-sans), 'DM Sans', sans-serif;
   --radius: 0rem;
   --shadow-x: 0px;
   --shadow-y: 1px;
@@ -96,9 +96,9 @@
   --sidebar-accent-foreground: #fafafa;
   --sidebar-border: #ffffff;
   --sidebar-ring: #525252;
-  --font-sans: Geist Mono, monospace;
-  --font-serif: Geist Mono, monospace;
-  --font-mono: Geist Mono, monospace;
+  --font-sans: var(--font-dm-sans), 'DM Sans', sans-serif;
+  --font-serif: var(--font-dm-sans), 'DM Sans', sans-serif;
+  --font-mono: var(--font-dm-sans), 'DM Sans', sans-serif;
   --radius: 0rem;
   --shadow-x: 0px;
   --shadow-y: 1px;

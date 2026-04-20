@@ -6,10 +6,12 @@ import { ExperienceSection } from "@/components/sections/ExperienceSection";
 import { ProjectsSection } from "@/components/sections/ProjectsSection";
 import { SkillsSection } from "@/components/sections/SkillsSection";
 import { AchievementsSection } from "@/components/sections/AchievementsSection";
+import { JsonLd } from "@/components/JsonLd";
 
 export default function Home() {
   return (
-    <main className="min-h-dvh bg-background px-4 py-10 sm:px-6">
+    <main className="min-h-dvh bg-background px-5 py-8 sm:px-6 sm:py-10">
+      <JsonLd />
       <div className="mx-auto w-full max-w-xl">
         <Navigation />
         <HeroSection />

@@ -32,12 +32,12 @@ export function ThingsIBuildSection() {
           <a
             key={item.name}
             href={item.href}
-            className="group flex flex-col gap-1.5 py-3 sm:flex-row sm:items-start sm:gap-4"
+            className="group flex flex-col gap-1.5 py-5 sm:flex-row sm:items-start sm:gap-4"
           >
             <span className="w-full min-w-0 text-sm font-medium text-foreground transition-colors group-hover:text-muted-foreground sm:w-37.5 sm:shrink-0">
               {item.name}
             </span>
-            <span className="text-sm text-muted-foreground wrap-break-word">
+            <span className="text-sm text-muted-foreground break-words">
               {item.desc}
             </span>
           </a>
