@@ -10,7 +10,7 @@ export function Navigation() {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/links", label: "Links" },
+    { href: "/linktree", label: "Links" },
   ];
 
   return (
