@@ -11,7 +11,7 @@ import {
 } from "@phosphor-icons/react";
 
 const PROFILE_IMAGE_SRC = "/profile.jpg";
-const RESUME_FILE_PATH = "/tejasnewfsd.pdf";
+const RESUME_FILE_PATH = "https://drive.google.com/file/d/1Xu6vNBrO9bqds_KtUCvzmRLJ9Dem05Zp/view";
 
 export function HeroSection() {
   return (
@@ -92,7 +92,8 @@ export function HeroSection() {
         </div>
         <a
           href={RESUME_FILE_PATH}
-          download="tejasnewfsd.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-border bg-muted/40 px-3 py-2 text-xs font-medium text-foreground transition-all duration-300 hover:border-foreground/20 hover:bg-muted active:scale-[0.98] sm:ml-auto sm:w-auto"
         >
           <DownloadSimple size={14} weight="regular" />

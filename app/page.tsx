@@ -6,6 +6,7 @@ import { ExperienceSection } from "@/components/sections/ExperienceSection";
 import { ProjectsSection } from "@/components/sections/ProjectsSection";
 import { SkillsSection } from "@/components/sections/SkillsSection";
 import { AchievementsSection } from "@/components/sections/AchievementsSection";
+import { OpenSourceSection } from "@/components/sections/OpenSourceSection";
 import { JsonLd } from "@/components/JsonLd";
 
 export default function Home() {
@@ -21,6 +22,8 @@ export default function Home() {
         <ExperienceSection />
         <Divider />
         <ProjectsSection />
+        <Divider />
+        <OpenSourceSection />
         <Divider />
         <SkillsSection />
         <Divider />

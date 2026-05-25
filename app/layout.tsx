@@ -89,7 +89,6 @@ export default function RootLayout({
     >
       <body
         className="min-h-full bg-background font-sans text-foreground selection:bg-foreground selection:text-background"
-        cz-shortcut-listen="true"
       >
         <ThemeProvider
           attribute="class"

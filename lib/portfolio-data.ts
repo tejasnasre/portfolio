@@ -18,6 +18,12 @@ export type Project = {
   links: { label: string; href: string }[];
 };
 
+export type OpenSourceContribution = {
+  repo: string;
+  highlights: string[];
+  link: string;
+};
+
 export type Achievement = {
   title: string;
 };
@@ -46,6 +52,18 @@ export const professionalLinks: ProfessionalLink[] = [
     title: "LinkedIn",
     description: "Connect with me professionally",
     url: "https://linkedin.com/in/tejasnasre",
+    category: "Social",
+  },
+  {
+    title: "YouTube",
+    description: "Check out my videos and tutorials",
+    url: "https://www.youtube.com/@tejasnasre",
+    category: "Social",
+  },
+  {
+    title: "X",
+    description: "Follow me on X for updates and insights",
+    url: "https://x.com/tejasnasre",
     category: "Social",
   },
   {
@@ -122,6 +140,42 @@ export const experiences: Experience[] = [
 
 export const projects: Project[] = [
   {
+    title: "Mini Music App",
+    tech: "React Native · Expo · Node.js (Bun) · HLS",
+    description:
+      "Music streaming app with HLS adaptive streaming, React Native frontend, and Node.js backend with artist discovery",
+    links: [
+      {
+        label: "APK",
+        href: "https://github.com/tejasnasre/Mini-Music-App/releases/download/apk/application-8e3953b9-1576-4817-8e7a-f2f224e699b9.apk",
+      },
+      {
+        label: "Code",
+        href: "https://github.com/tejasnasre/Mini-Music-App",
+      },
+      {
+        label: "Demo",
+        href: "https://drive.google.com/file/d/10OKeSHLMlXPyfaHLYxBGllhsxfGG7vdy/view",
+      },
+    ],
+  },
+  {
+    title: "Communex",
+    tech: "Next.js · Supabase",
+    description:
+      "Community discovery and networking platform connecting fragmented tech communities into one discoverable ecosystem",
+    links: [
+      {
+        label: "Live",
+        href: "https://communex.online",
+      },
+      {
+        label: "Code",
+        href: "https://github.com/tejasnasre",
+      },
+    ],
+  },
+  {
     title: "Aevus",
     tech: "React Native · Supabase",
     description:
@@ -164,6 +218,24 @@ export const projects: Project[] = [
       { label: "Code", href: "https://github.com/tejasnasre" },
       { label: "Demo", href: "#" },
     ],
+  },
+];
+
+export const openSourceContributions: OpenSourceContribution[] = [
+  {
+    repo: "dodopayments/billingsdk",
+    highlights: [
+      "Dodo Payment billing SDK bug fixes",
+      "Added support for 180+ currencies in BillingSettings2 component",
+    ],
+    link: "https://github.com/dodopayments/billingsdk/pull/287",
+  },
+  {
+    repo: "HITK-TECH-Community/Community-Website",
+    highlights: [
+      "Integrate GET Questions in Frontend",
+    ],
+    link: "https://github.com/HITK-TECH-Community/Community-Website/pull/882",
   },
 ];
 

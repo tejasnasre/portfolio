@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Links — Tejas Nasre",
+  title: "Links - Tejas Nasre",
   description:
     "Connect with Tejas Nasre across the web. Find portfolio, GitHub, LinkedIn, and contact links in one place.",
   openGraph: {
-    title: "Links — Tejas Nasre",
+    title: "Links -Tejas Nasre",
     description:
       "Connect with Tejas Nasre across the web. Find portfolio, GitHub, LinkedIn, and contact links in one place.",
     url: "https://tejasnasre.is-a.dev/linktree",
