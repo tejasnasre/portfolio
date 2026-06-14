@@ -103,6 +103,19 @@ export const skills: Skill[] = [
 
 export const experiences: Experience[] = [
   {
+    title: "Mobile App Developer",
+    company: "Blosical",
+    duration: "June 2026 — Present",
+    location: "Remote",
+    highlights: [
+      "Developing a production-grade music platform mobile application using React Native, Expo, and TypeScript for Android and iOS",
+      "Built scalable application architecture with Zustand for state management and MMKV for high-performance local data storage",
+      "Implemented robust form handling and type-safe validation using React Hook Form and Zod to improve application reliability",
+      "Developed reusable UI components, optimized navigation flows, and enhanced app performance across a wide range of devices",
+      "Collaborated with cross-functional teams to integrate APIs, deliver new features, resolve bugs, and maintain code quality through agile development practices",
+    ],
+  },
+  {
     title: "Full Stack Engineer",
     company: "RewiPay — FinBridge Innovations",
     duration: "Jan 2026 — Present",

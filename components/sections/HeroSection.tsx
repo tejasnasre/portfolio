@@ -11,7 +11,7 @@ import {
 } from "@phosphor-icons/react";
 
 const PROFILE_IMAGE_SRC = "/profile.jpg";
-const RESUME_FILE_PATH = "https://drive.google.com/file/d/1Xu6vNBrO9bqds_KtUCvzmRLJ9Dem05Zp/view";
+const RESUME_FILE_PATH = "https://drive.google.com/file/d/1QCPIpfyB5mT_tzltFOchp9N0Uu7_h7cY/view?usp=sharing";
 
 export function HeroSection() {
   return (
