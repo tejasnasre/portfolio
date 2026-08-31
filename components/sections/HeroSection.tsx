@@ -9,6 +9,7 @@ import {
   LinkedinLogo,
   MapPin,
 } from "@phosphor-icons/react";
+import { AiSummary } from "@/components/AiSummary";
 
 const PROFILE_IMAGE_SRC = "/profile.jpg";
 const RESUME_FILE_PATH = "https://drive.google.com/file/d/1QCPIpfyB5mT_tzltFOchp9N0Uu7_h7cY/view?usp=sharing";
@@ -31,6 +32,8 @@ export function HeroSection() {
       <h1 className="mb-1 text-xl font-semibold text-foreground">
         Tejas Nasre aka Builder
       </h1>
+
+      <AiSummary />
 
       <p className="mb-4 leading-relaxed text-muted-foreground">
         I&apos;m a full stack engineer at heart, building mobile and web
