@@ -89,30 +89,35 @@ export const skills: Skill[] = [
       "Node.js",
       "Express",
       "TailwindCSS",
+      "Zustand",
+      "TanStack Query",
+      "Reanimated",
     ],
   },
   {
     title: "Database & Backend",
-    items: ["PostgreSQL", "Supabase", "Neon", "Drizzle ORM", "Better Auth"],
+    items: ["PostgreSQL", "Supabase", "Neon", "Drizzle ORM", "Prisma", "Redis", "WebSockets", "Socket.IO", "BullMQ", "Better Auth"],
   },
   {
     title: "Tools & Platforms",
-    items: ["Git", "Github", "Vercel", "AI-SDK", "Docker", "Cursor"],
+    items: ["Git", "Github", "Vercel", "AI-SDK", "Docker", "Cursor", "EAS Build", "CodePush", "Sentry", "AWS S3"],
   },
 ];
 
 export const experiences: Experience[] = [
   {
-    title: "Mobile App Developer",
+    title: "Mobile Engineer (T-Shaped Full Stack)",
     company: "Blosical",
     duration: "June 2026 — Present",
     location: "Remote",
     highlights: [
-      "Developing a production-grade music platform mobile application using React Native, Expo, and TypeScript for Android and iOS",
-      "Built scalable application architecture with Zustand for state management and MMKV for high-performance local data storage",
-      "Implemented robust form handling and type-safe validation using React Hook Form and Zod to improve application reliability",
-      "Developed reusable UI components, optimized navigation flows, and enhanced app performance across a wide range of devices",
-      "Collaborated with cross-functional teams to integrate APIs, deliver new features, resolve bugs, and maintain code quality through agile development practices",
+      "Own the React Native/Expo app end-to-end as sole mobile engineer (iOS + Android) — expo-router, Zustand, TanStack Query, and Reanimated/Gesture Handler for 60fps UI",
+      "Shipped native Apple Sign-In and Google Sign-In (native ID token flows), OTP email auth, and an AES-256 encrypted MMKV store for tokens separate from general cache",
+      "Own OTA releases end-to-end: CodePush bundle/deploy pipeline via Bitrise, in-app update UI, and EAS Build profiles across dev/preview/production",
+      "Built push notifications on FCM + APNs via Expo Notifications — token registration, Android channels, server-side delivery, and cold-start deep-link routing to in-app screens; plus Universal Links/App Links and a notification inbox",
+      "Wired Sentry crash reporting with a custom fallback screen and session replay, and expo-observe for performance metrics",
+      "Built real-time chat (Socket.IO — presence, @mentions, unread sync) and the product/order/storefront flows with Stripe Connect payouts",
+      "Also contribute to the web (Next.js) and backend (Express + Prisma + Redis) side of the same features",
     ],
   },
   {
@@ -259,4 +264,6 @@ export const achievements: Achievement[] = [
   { title: "Two Time Hackathon Organiser" },
   { title: "Open Source Contributor & Maintainer (GSSoC'24 | Dodo Payments)" },
   { title: "Web3 Student Advocate At Outdefine" },
+  { title: "Shipathon IRL Nagpur — August 9, 2026" },
+  { title: "Clerk Buildstation Nagpur — September 5, 2026" },
 ];
